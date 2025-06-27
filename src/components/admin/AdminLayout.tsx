@@ -1,8 +1,7 @@
-
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Users, Calendar, News, List, LogOut } from "lucide-react";
+import { Menu, X, Users, Calendar, Newspaper, List, LogOut } from "lucide-react";
 
 interface AdminLayoutProps {
   children: React.ReactNode;
@@ -15,7 +14,7 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
 
   const menuItems = [
     { name: "Dashboard", href: "/admin/dashboard", icon: List },
-    { name: "News Management", href: "/admin/news", icon: News },
+    { name: "News Management", href: "/admin/news", icon: Newspaper },
     { name: "Player Management", href: "/admin/players", icon: Users },
     { name: "Match Management", href: "/admin/matches", icon: Calendar },
     { name: "League Management", href: "/admin/league", icon: List },

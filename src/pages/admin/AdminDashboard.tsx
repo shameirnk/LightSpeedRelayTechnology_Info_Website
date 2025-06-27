@@ -1,7 +1,6 @@
-
 import AdminLayout from "@/components/admin/AdminLayout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Users, Calendar, News, Trophy } from "lucide-react";
+import { Users, Calendar, Newspaper, Trophy } from "lucide-react";
 
 const AdminDashboard = () => {
   const stats = [
@@ -20,7 +19,7 @@ const AdminDashboard = () => {
     {
       title: "News Articles",
       value: "12",
-      icon: News,
+      icon: Newspaper,
       color: "bg-purple-500/20 text-purple-200"
     },
     {
@@ -86,7 +85,7 @@ const AdminDashboard = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <Card className="backdrop-blur-md bg-white/10 border-white/20 hover:bg-white/15 transition-colors cursor-pointer">
             <CardContent className="p-6 text-center">
-              <News className="w-12 h-12 text-blue-400 mx-auto mb-4" />
+              <Newspaper className="w-12 h-12 text-blue-400 mx-auto mb-4" />
               <h3 className="text-white font-semibold mb-2">Add News Article</h3>
               <p className="text-white/70 text-sm">Create and publish new content</p>
             </CardContent>
