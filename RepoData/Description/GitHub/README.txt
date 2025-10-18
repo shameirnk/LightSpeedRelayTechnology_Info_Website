@@ -1,1 +1,1 @@
- The new approach to Git repo templates, an ultimate template culminated in less than 2 weeks that combines all template categories into one. A very powerful Git template. 
+⚡️🌌️🌐️ The official source repository for the website of the LightSpeedRelayTechnologies (LSRT) project, a set of technologies for data transfer between vast distances at/near the speed of light, one planet to the next. 
