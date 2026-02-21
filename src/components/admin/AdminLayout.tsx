@@ -26,7 +26,7 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900">
+    <div className="min-h-screen bg-gradient-to-br from-red-900 via-rose-900 to-pink-900">
       <div className="flex">
         {/* Sidebar */}
         <div className={`${sidebarOpen ? "w-64" : "w-16"} transition-all duration-300 min-h-screen backdrop-blur-md bg-black/20 border-r border-white/10`}>
